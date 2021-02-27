@@ -8,6 +8,16 @@
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=bachors&repo=Al-Quran-ID-API" />
 </a>
 
+
+
+
+
+
+
+
+
+
+
 # Screnshoot Version 1.0
 
 ![1](https://user-images.githubusercontent.com/53173709/84561839-eef67a00-ad79-11ea-87fc-9b4003d2c52d.png)
