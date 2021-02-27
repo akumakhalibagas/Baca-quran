@@ -8,15 +8,7 @@
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=bachors&repo=Al-Quran-ID-API" />
 </a>
 
-
-
-
-
-
-
-
-
-
+<br />
 
 # Screnshoot Version 1.0
 
