@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.Mp3DetailActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/amanat"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/vp"
+        app:layout_constraintStart_toStartOf="@+id/vp"
+        app:layout_constraintTop_toTopOf="@+id/vp" />
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/linear_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/colorPrimary">
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressTint="@android:color/white"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btPrevious"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/ic_skip_previous"
+                android:layout_margin="20dp"
+                android:foreground="?attr/selectableItemBackground"
+                style="?android:attr/borderlessButtonStyle"
+                android:backgroundTint="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btPlay"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_margin="20dp"
+                android:foreground="?attr/selectableItemBackground"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/ic_play"
+                android:backgroundTint="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btNext"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/ic_skip_next"
+                android:layout_margin="20dp"
+                android:foreground="?attr/selectableItemBackground"
+                style="?android:attr/borderlessButtonStyle"
+                android:backgroundTint="@android:color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

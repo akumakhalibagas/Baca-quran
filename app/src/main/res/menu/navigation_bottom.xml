@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"/>
+    <item android:id="@+id/navigation_last"
+        android:icon="@drawable/ic_bookmark_black_24dp"
+        android:title="Terakhir"/>
+    <item android:id="@+id/navigation_favorite"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        android:title="Favorite"/>
+    <item android:id="@+id/navigation_rekomendasi"
+        android:icon="@drawable/ic_explore_black_24dp"
+        android:title="Rekomendasi"/>
+
+</menu>

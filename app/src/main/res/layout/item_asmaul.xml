@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="0dp"
+    android:foreground="?attr/selectableItemBackground"
+    style="?android:attr/borderlessButtonStyle"
+    app:cardBackgroundColor="@color/colorCard"
+    android:layout_margin="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/arabb"
+            android:textSize="32sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorTitle"
+            android:fontFamily="@font/arab"
+            android:id="@+id/tv_arab"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ar_rahman"
+            android:textColor="@color/colorTitle"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:fontFamily="@font/medium"
+            android:layout_marginTop="15dp"
+            android:id="@+id/tv_name"/>
+        <TextView
+            android:id="@+id/tv_arti"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="@string/yang_memiliki_mutlak_sifat_pemurah"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/colorTitle"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
